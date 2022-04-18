@@ -1,0 +1,14 @@
+<main>
+  <form (ngSubmit)="add()">
+    <h2>To do List</h2>
+    <label for="task"> Task</label>
+    <input
+      id="task"
+      type="text"
+      name="task"
+      placeholder="Create my next project"
+      [(ngModel)]="task"
+    />
+    <button type="submit">Add</button>
+  </form>
+</main>
